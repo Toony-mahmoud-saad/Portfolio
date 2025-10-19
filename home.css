@@ -1,0 +1,150 @@
+/* *{
+  margin: 0;
+  padding: 0;
+}
+body{
+  width: 100vw;
+  height: 100vh;
+  color: aliceblue;
+}
+.container{
+  width: 100vw;
+  height: 100vh;
+  background-image: linear-gradient(to top,black, transparent), url('./29.jpg');
+  background-size: cover;
+}
+.container nav{
+  padding: 10px;
+  padding-right: 25px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.container nav h2{
+  font-family: "Inter";
+  font-weight: bolder;
+  font-size: 40px;
+}
+.container nav h2 a{
+  text-decoration: none;
+  color: aliceblue;
+}
+.container nav ul{
+  list-style: none;
+  display: flex;
+  gap: 20px;
+  font-size: larger;
+  font-weight: 500;
+}
+
+.container nav ul li a{
+  text-decoration: none;
+  color: aliceblue;
+}
+.container nav ul li a:hover{
+  background-color: #a6a5a56c;
+  padding: 3px;
+  border-radius: 3px;
+}
+.container nav ul li .home{
+  text-decoration: 2px solid underline;
+  font-size: larger;
+}
+.container nav ul li .home:hover{
+  text-decoration: 2px solid underline 3px;
+  font-size: larger;
+  padding: 3px;
+  border-radius: 3px;
+}
+.container .body{
+  display: grid;
+  grid-template-columns: 50% 50%;
+  align-items: center;
+  padding-top: 20vh;
+}
+.container .body .left{
+  margin: auto;
+}
+.container .body .left h2{
+  font-family: "Instrument Serif", serif;
+  font-weight: 500;
+  font-size: 42px;
+  font-style: italic;
+}
+.container .body .left h3{
+  font-family: "Inter";
+  font-weight: 500;
+  font-size: 32px;
+  padding-top: 10px;
+}
+.container .body .left p{
+  font-family: sans-serif;
+  padding-top: 45px;
+  color: gainsboro;
+  max-width: 420px;
+}
+.container .body .right{
+  margin: auto;
+}
+.container .body .right img{
+  width: 300px;
+  border-radius: 50%;
+}
+.container .button{
+  background-color: #404040;
+  position: absolute;
+  bottom: 20px;
+  right: 20px;
+  border-radius: 30%;
+}
+.container .button i{
+  font-size: 50px;
+  text-align: center;
+  padding: 30px 50px;
+} */
+body{
+  background-color: #202020;
+  color: white;
+}
+
+.Mynavbar{
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: 10px;
+  border: 1px solid white;
+  border-color: rgb(255, 255, 255);
+  border-radius: 50px;
+  overflow: hidden;
+  z-index: 1000;
+}
+
+.navbar-brand{
+  font-family: "Roboto", sans-serif;
+  font-weight: 900;
+  font-style: italic;
+  font-size: 32px;
+  letter-spacing: 1.9px;
+}
+
+#home{
+  margin-top: 20px;
+}
+
+.img-fluid{
+  border-radius: 10%;
+}
+details > summary {
+  cursor: pointer;
+  color: rgb(27, 119, 225);
+  font-size: x-large;
+}
+
+
+
+
+
+
+
+
