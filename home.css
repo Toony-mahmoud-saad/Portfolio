@@ -102,25 +102,25 @@ body{
   text-align: center;
   padding: 30px 50px;
 } */
-body{
+body {
   background-color: #202020;
   color: white;
 }
 
-.Mynavbar{
+.Mynavbar {
   position: fixed;
-  bottom: 0;
+  top: 0;
   left: 0;
   right: 0;
   margin: 10px;
   border: 1px solid white;
-  border-color: rgb(255, 255, 255);
+  border-color: #ffffff;
   border-radius: 50px;
   overflow: hidden;
   z-index: 1000;
 }
 
-.navbar-brand{
+.navbar-brand {
   font-family: "Roboto", sans-serif;
   font-weight: 900;
   font-style: italic;
@@ -128,23 +128,28 @@ body{
   letter-spacing: 1.9px;
 }
 
-#home{
-  margin-top: 20px;
+#home {
+  padding-top: 130px;
 }
 
-.img-fluid{
+#skills {
+  padding-top: 40px;
+}
+
+#projects {
+  padding-top: 40px;
+}
+
+#contact {
+  padding-top: 40px;
+}
+
+.img-fluid {
   border-radius: 10%;
 }
-details > summary {
+
+details>summary {
   cursor: pointer;
   color: rgb(27, 119, 225);
   font-size: x-large;
 }
-
-
-
-
-
-
-
-

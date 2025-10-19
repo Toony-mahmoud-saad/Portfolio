@@ -13,6 +13,7 @@ fullStackRadio.onclick= ()=>{
 }
 
 backEndRadio.onclick = ()=>{
+  
   backBrojects.classList.remove('d-none')
   fullBrojects.classList.add('d-none')
   frontBrojects.classList.add('d-none')
